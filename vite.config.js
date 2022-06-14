@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/logfile-parser/dist/',
+  base: '/logfile-parser',
   build: {
     chunkSizeWarningLimit: 1500,
     minify: true,
